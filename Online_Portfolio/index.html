@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Portfolio</title>
+
+  <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+
+  <!-- JS -->
+    <link rel="stylesheet" href="index.js">
+  
+  <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b01cc1c892.js" crossorigin="anonymous"></script>
+  
+  <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+</head>
+
+<body>
+    
+<!-- Navbar Start -->
+<nav class="navbar navbar-expand-md fixed-top bg-dark">
+  
+  <div class="container-fluid my-1">
+
+    <a class="navbar-brand text-light  rounded-pill px-2" href="#homepage">Home</a>
+
+    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+      <ul class="navbar-nav ms-auto me-3">
+
+        <li class="nav-item">
+          <a class="nav-link text-light rounded-pill px-3" aria-current="page" href="#aboutMe">About Me</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light rounded-pill px-3" aria-current="page" href="#prog">Skills</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light rounded-pill px-3" href="#education">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link text-light rounded-pill px-3" href="#projects">Projects</a>
+        </li>
+        
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+<!-- Navbar End -->
+
+<!-- Home Start -->
+  <div id="homepage" class="min-vh-100 d-flex align-items-center">
+
+    <div class="container-fluid pt-5">
+
+      <div class="row d-flex align-items-center justify-content-center">
+
+        <div id="homeContent" class="col-12 col-md-6 ps-lg-5 pt-4">
+          <h3  id="hi" class="mt-2">Hello,</h3>
+          <h1 id="name" ><im>I'm</im> <u id="fname">Xandrix Paguntalan</u></h2>
+          <h3  id="desc">Web Developer</h3>
+          <button id="hire" onclick="redirectToResume()" class="p-2 mt-3 mb-5 "><b>Resume</b></button>
+        </div>
+
+        <div class="col-12 col-md-6 pt-sm-4 text-center">
+          <img id="myPic" class="img-fluid " src="./images/FB PIC.jpg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+<!-- Home End -->
+
+<!-- About Me Start -->
+  <div id="aboutMe" class="min-vh-100">
+
+    <div class="container-fluid pt-5">
+
+      <div class="row pt-5 d-flex align-items-center">
+
+        <h1 id="aboutme" class="text-center pb-md-5 mb-md-5">About Me</h1>
+
+        <div class="col-12 col-md-6 jus pt-5 order-2 order-md-1">
+
+          <h1 id="fname" class="text-center ">Xandrix Jill B. Paguntalan</h1>
+          <p id="desc2" class="col-10 mx-auto pt-3">As a web developer, I have a strong foundation in front-end techniques that enable me to create visually appealing websites. With knowledge in back-end development, I can add functionality to enhance user experience. As a graduate of Zuitt coding bootcamp, I'm eager to tackle new challenges and continue honing my web development expertise.</p>
+
+          <h3 class="text-center pt-5 orange"><b>General Info</b></h3>
+
+          <div class="container-fluid col-12 col-md-8">
+            <div class="d-flex pt-3">
+
+              <div class="col-6 d-flex justify-content-center">
+                <div class="col-12 text-center">
+                  
+                  <h5 >Birth Place:</h5>
+                  <h5 class="my-3 ">Languages:</h5>
+                </div>
+              </div>
+
+              <div class="col-6 d-flex justify-content-center">
+                <div class="col-12 ">
+                  
+                  <h5>Philippines</h5>
+                  <h5 class="my-3 ">English, Tagalog, Bisaya</h5>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <h3 class="text-center pt-5 pb-3 orange"><b>Contact Info</b></h3>
+          
+          <h5 class="text-center my-3" data-bs-toggle="tooltip" data-bs-title="Smart" data-bs-placement="top">0947-576-1100 <i class="fa-solid fa-phone"></i></h5>
+
+          <h5 id="insta" class="text-center"><a target=" " href="https://www.instagram.com/xirdnqx/">Instagram <i class="fa-brands fa-instagram"></i> </a></h5>
+
+          <h5 id="fb" class="text-center my-3 "><a target=" " href="https://www.facebook.com/profile.php?id=100087469804846" >Facebook <i class="fa-brands fa-facebook"></i> </a></h5>
+          
+          <h5 id="linkedin" class="text-center "><a target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/">LinkedIn <i class="fa-brands fa-linkedin"></i> </a></h5>
+
+          <h5 class="text-center my-3 ">xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i></h5>
+          
+        </div>
+
+        <div class="col-12 col-md-6 order-1 order-md-2 text-center">
+          <img id="myPic2" class="img-fluid my-3 " src="./images/mypic2.jpg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- About Me End -->
+
+<!-- Programming Languages Start -->
+  <div id="prog" class="min-vh-100">
+
+    <div class="container-fluid pt-5">
+
+      <h1 class="pt-5 text-center white">Skills</h1>
+
+      <div class="row d-flex flex-wrap justify-content-center">
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">HTML</h3>
+          <p>HyperText Markup Language, used for creating the structure and content of web pages.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">CSS</h3>
+          <p>Cascading Style Sheets, used for styling and formatting the appearance of web pages.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">JavaScript</h3>
+          <p>A programming language used to add interactivity and dynamic features to web pages.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Java</h3>
+          <p>A general-purpose programming language used for building a wide range of applications.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Python</h3>
+          <p> A versatile programming language known for its readability and simplicity, used for web development, data analysis, and more.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Bootstrap</h3>
+          <p>A popular front-end framework that simplifies the process of building responsive and mobile-first websites.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">React</h3>
+          <p>A JavaScript library used for building user interfaces for web applications.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">SQL</h3>
+          <p>Structured Query Language, used for managing and manipulating relational databases.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">NoSQL</h3>
+          <p>A non-relational database management system, which includes various databases like MongoDB, Cassandra, etc.</p>
+
+        </div>
+
+        <div class="white col-10 col-md-6 col-lg-3 text-center border border-primary p-5 m-3 smoothBorder">
+
+          <h3 class="orange">Git</h3>
+          <p>A distributed version control system used for tracking changes in code repositories.
+          </p>
+
+        </div>
+
+      </div>
+      
+
+    </div>
+
+  </div>
+  
+<!-- Programming Languages End -->
+
+<!-- Education Start -->
+  <div id="education" class="min-vh-100">
+
+    <div class="pt-5 container-fluid">
+
+      <h1 id="edu" class="text-center py-5">Education</h1>
+
+      <div id="educationContainer" class="row d-flex justify-content-center">
+
+
+        <div id="econ1" class="col-11 col-md-5 p-3 ">
+
+          <div class="p-3 econbg">
+
+            <div class="text-center">
+
+              <div id="ecard">
+                <a target=" " href="https://www.pisdavao.com"><img class="img-fluid" src="./images/pisd.jpg" alt=""></a>
+              </div>
+  
+            </div>
+            
+            <div>
+  
+              <h3 class="py-2 text-center orange">Precious International School of Davao</h3>
+              <p class="justifyText">I enrolled in Precious International School of Davao for my elementary and high school education, starting in the year 2010 and graduating from high school in 2019.</p>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="econ2" class="col-11 col-md-5 p-3 ">
+
+          <div class="p-3 econbg">
+
+            <div class="text-center">
+
+              <div id="ecard">
+                <a target=" " href="https://mcm.edu.ph/"><img class="img-fluid" src="./images/mmcm.jpg" alt=""></a>
+              </div>
+  
+            </div>
+            
+            <div>
+  
+              <h3 class="py-2 text-center orange">Mapúa Malayan Colleges Mindanao</h3>
+              <p class="justifyText">I enrolled in Mapúa Malayan Colleges Mindanao as a senior high student in May 2019 and graduated in May 2021 with an ICT-PRG strand in the TVL (Technical-Vocational-Livelihood) track. Additionally, I completed 1 year and 2 semesters in college at Mapúa Malayan Colleges Mindanao.</p>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="econ3" class="col-11 col-md-5 p-3 ">
+
+          <div class="p-3 econbg ">
+
+            <div class="text-center">
+
+              <div id="ecard">
+                <a target=" " href="https://zuitt.co/"><img class="img-fluid" src="./images/zuitt.jpg" alt=""></a>
+              </div>
+  
+            </div>
+            
+            <div>
+  
+              <h3 class="py-2 text-center orange">Zuitt Coding Bootcamp</h3>
+              <p class="justifyText">I joined Zuitt to further expand my knowledge in web development. There are three courses in total, and I have already completed all three of them, which are the front-end, back-end, and full-stack courses. The bootcamp was conducted within 4 months. We started on February 6, 2023, and graduated on May 17, 2023.</p>
+              
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+<!-- Education End -->
+
+<!-- New Projects Start -->
+
+  <div id="projects" class="min-vh-100">
+    <div class="container-fluid col-12">
+
+      <div class="row d-flex justify-content-center py-5">
+
+        <h1 class="py-5 text-center white">Projects</h1>
+
+        <div id="animationCon">
+          <p class="ptext orange text-center">You may click each image to view the whole website.</p>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <a href="https://xjpaguntalan.github.io/Login_Signup/" target=" ">
+              <img class="img-fluid full" src="./images/card1.png" alt="">
+            </a>
+          </div>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <img class="img-fluid full" src="./images/proj2.png" alt="">
+          </div>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <img class="img-fluid full" src="./images/proj3.png" alt="">
+          </div>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <img class="img-fluid full" src="./images/proj4.png" alt="">
+          </div>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <img class="img-fluid full" src="./images/proj5.png" alt="">
+          </div>
+        </div>
+
+        <div id="pcard" class="col-11 col-lg-5 my-3 mx-1">
+          <div id="pimg"  class="m-4">
+            <img class="img-fluid full" src="./images/proj6.png" alt="">
+          </div>
+        </div>
+
+        <div id="prjtxt" class="text-center mt-4">
+
+          <h4 class="orange">The projects displayed above are examples of my work.</h4>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+<!-- New Projects Start -->
+
+<!-- Footer Start -->
+
+<div id="footer">
+
+  <div class="container-fluid d-flex flex-column align-items-center">
+
+    <div class="d-flex pt-3">
+
+      <div class="mx-3">
+        <a id="ffb" target=" " href="https://www.facebook.com/profile.php?id=100087469804846" > <i class="fa-brands fa-facebook fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a id="finsta" target=" " href="https://www.instagram.com/xirdnqx/"><i class="fa-brands fa-instagram fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a id="flinkedin" target=" " href="https://www.linkedin.com/in/xandrix-jill-paguntalan-670100268/"><i class="fa-brands fa-linkedin fa-lg"></i> </a>
+      </div>
+
+      <div class="mx-3">
+        <a id="fgitlab" target=" " href="https://gitlab.com/xjPaguntalan"><i class="fa-brands fa-gitlab fa-lg"></i></a>
+      </div>
+
+      <div class="mx-3">
+        <a id="fgithub" target=" " href="https://github.com/xjPaguntalan"><i class="fa-brands fa-github fa-lg"></i></a>
+      </div>
+
+    </div>
+
+    <div class="my-3">
+
+      <div class="text-center" data-bs-toggle="tooltip" data-bs-title="Smart" data-bs-placement="top">
+        0947-576-1100 <i class="fa-solid fa-phone"></i>
+      </div>
+
+      <div class="text-center mt-3">
+        xandrixjillpaguntalan@gmail.com <i class="fa-regular fa-envelope"></i>
+      </div>
+
+    </div>
+  
+    <div class="mb-3">
+      <i class="fa-regular fa-copyright"></i> 2023 Xandrix Paguntalan | All Rights Reserved
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Footer End -->
+
+
+<!-- Bootstrap Start -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<!-- Bootstrap End -->
+
+<!-- JS Start -->
+  <script src="./index.js"></script>
+<!-- JS End -->
+
+</body>
+</html>

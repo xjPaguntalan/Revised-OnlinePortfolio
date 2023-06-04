@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    scroll-behavior: smooth;
+}
+
+html {
+    background-color: #000000;
+    scroll-behavior: smooth;
+}
+
+#homepage {
+    background-color: #1F2022;
+}
+
+#homepage h1 {
+    font-size: 50px;
+}
+
+#fname {
+    font-size: 50px;
+}
+
+#gmail {
+    font-size: 17px;
+}
+
+nav {
+    width: 100%;
+}
+
+.navbar a {
+    transition-duration: .3s;
+    color: #fff;
+}
+
+.navbar a:hover {
+    transition-duration: .5s;
+    background-color: #ffa500;
+}
+
+.collapse ul li ul {
+    background: #0b5394;
+}
+
+#myPic {
+    border-radius: 80px ;
+    max-height: 600px;
+    
+}
+
+div button {
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+div h1 {
+    font-size: 60px;
+}
+
+div h3{
+    font-size: 40px;
+}
+
+#homeContent {
+    border-radius: 0px 70px 70px 0px;
+}
+
+@media screen and (max-width: 767px) {
+    #homeContent {
+        background-color: #1F2022;
+        color: #fff;
+    }
+
+    #hi, #desc, #hire {
+        font-size: 20px;
+    }
+
+    #name im {
+        font-size: 25px;  
+    }
+
+    #name u {
+        font-size: 30px;  
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #homeContent {
+        background: #21252B;
+        color: #fff;
+    }
+}
+
+#hire {
+
+    transition-duration: .5s;
+}
+
+#hire:hover {
+    scale: 1.3;
+    transition-duration: .5s;
+    background-color: #FCA326;
+    color: #fff;
+}
+
+#aboutMe {
+    background-color: #1F2022;
+    color: #fff;
+}
+
+#aboutMe a {
+    text-decoration: none;
+    color: black;
+}
+
+#insta a, #fb a, #linkedin a {
+    color: #fff;
+    transition-duration: .5s;
+}
+
+#insta a:hover {
+    color: #E1256C;
+    transition-duration: .5s;
+}
+
+#fb a:hover {
+    color: #1877F2;
+    transition-duration: .5s;
+}
+
+#linkedin a:hover {
+    color: #0A66C2;
+    transition-duration: .5s;
+}
+
+#myPic2 {
+    border-radius: 70px;
+    max-height: 700px;
+}
+
+#prog {
+    background-color: #1F2022;
+}
+
+#prog h2 {
+    color: #fff;
+}
+
+#prog img {
+    border-radius: 20px;
+}
+
+.progcon {
+    background: #073763;
+    border-radius: 40px;
+}
+
+.progtext {
+    border-radius: 20px;
+    background: white;
+}
+
+.econbg {
+    background: #242930;
+    height: 100%;
+    color: white;
+}
+
+#education {
+    background-color: #1F2022;
+}
+
+#edu {
+    font-size: 55px;
+    color: #fff;
+}
+
+.econbg, #econ1 img, #econ2 img, #econ3 img {
+    border-radius: 20px;
+}
+
+#projects {
+    background-color: #1F2022;
+}
+
+.carousel-inner img{
+    aspect-ratio: 16/9;
+}
+
+.fa-chevron-left, .fa-chevron-right {
+    color: #073763;
+}
+
+.carousel-inner {
+    border: 3px solid #073763;
+    border-radius: 10px;
+}
+
+#prjtxt {
+    color: #fff;
+}
+
+#footer {
+    background-color: #242930;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+.white {
+    color: #fff;
+}
+
+.smoothBorder {
+    border-radius: 30px;
+}
+
+#ffb, #finsta, #flinkedin, #fgitlab, #fgithub {
+    transition-duration: .5s;
+}
+
+#ffb:hover {
+    transition-duration: .5s;
+    color: #1877F2;
+}
+
+#finsta:hover {
+    transition-duration: .5s;
+    color: #C13584;
+}
+
+#flinkedin:hover {
+    transition-duration: .5s;
+    color: #0A66C2;
+}
+
+#fgitlab:hover {
+    transition-duration: .5s;
+    color: #FCA326;
+}
+
+#fgithub:hover {
+    transition-duration: .5s;
+    color: #181717;
+}
+
+#ecard {
+    overflow: hidden;
+}
+
+#ecard img {
+    transition: all .8s;
+}
+
+#ecard img:hover {
+    scale: 1.07;
+}
+
+#fname {
+    color: #ffa500;
+}
+.orange {
+    color: #ffa500;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffa500;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+#pcard {
+    border-radius: 40px;
+}
+
+#pimg  {
+    overflow: hidden;
+}
+
+#pimg img {
+    transition: all .8s;
+}
+
+#pimg img:hover {
+    transform: scale(1.04);
+}
+
+@keyframes changingC {
+    
+    0% {
+        scale: 1;
+    }
+
+    50% {
+        scale: 1.1;
+    }
+}
+
+.ptext {
+    animation: changingC 2s infinite ease-in;
+    font-size: 20px;
+}
+
+#animationCon {
+    overflow: hidden;
+}
